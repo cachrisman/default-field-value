@@ -1,0 +1,31 @@
+{
+  "id": "default-field-value",
+  "name": "Default Field Value",
+  "fieldTypes": ["Symbol", "Text", "Integer", "Number"],
+  "srcdoc": "index.html",
+  "parameters": {
+    "instance": [{
+        "id": "defaultValue",
+        "name": "Default value",
+        "type": "Symbol",
+        "required": true,
+        "description": "Set the default value for this field"
+      },
+      {
+        "id": "readOnly",
+        "name": "Read only",
+        "type": "Boolean",
+        "default": false,
+        "required": true,
+        "description": "Mark the value as read only"
+      },
+      {
+        "id": "helpText",
+        "name": "Help text",
+        "type": "Symbol",
+        "required": false,
+        "description": "This help text will show up below the field"
+      }
+    ]
+  }
+}
